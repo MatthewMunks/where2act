@@ -128,7 +128,7 @@ def load_checkpoint(models, model_names, dirname, epoch=None, optimizers=None, o
         raise ValueError('Number of models, model names, or optimizers does not match.')
 
     for model, model_name in zip(models, model_names):
-        filename = f'net_{model_name}.pth'
+        filename = f"net_{model_name}.pth"
         if epoch is not None:
             filename = f'{epoch}_' + filename
         model.load_state_dict(torch.load(os.path.join(dirname, filename)), strict=strict)
