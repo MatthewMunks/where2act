@@ -1,3 +1,5 @@
 wheels
 venv
 __pycache__
+
+*.swp
