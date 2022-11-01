@@ -54,7 +54,11 @@ with open(conf.data_fn, 'r') as fin:
 datagen.start_all()
 
 data_tuple_list = datagen.join_all()
+print(data_tuple_list);
 with open(os.path.join(conf.data_dir, conf.out_fn), 'w') as fout:
     for item in data_tuple_list:
+        print(item);
         fout.write(item.split('/')[-1]+'\n')
+
+print("Finished");
 
