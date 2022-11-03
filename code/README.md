@@ -116,3 +116,20 @@ This script will generate a GIF for all proposed successful interaction orientat
 so you can run multiple times to get different results.
 The results are generated under `logs/[exp-folder]/[result-folder]/`.
 
+## Notes on how long each run took.
+
+Epochs 1-3 (3 epochs) took 19 mins. (6 processes)
+Epochs 4-8 (5 epochs) took 22 mins. (6 processes)
+Epochs 9-15 (7 epochs) took 30 mins. (6 processes)
+Epochs 16-30 (15 epochs) took 61 mins. (6 processes)
+Epochs 31-45 (15 epochs) took 56 mins. (6 processes)
+Epochs 46-55 (10 epochs) took 38 mins. (6 processes)
+Epochs 56-65 (10 epochs) took 38 mins. (6 processes)
+Epochs 66-75 (10 epochs) took 58 mins. (4 processes, working on Nvidia stuff).
+Epochs 87-140 (54 epochs) took 176 mins. (7 processes)
+Epochs 141-170 (30 epochs) took 104 mins. (7 processes)
+Epochs 171-185 (15 epochs) took 47 mins. (7 processes)
+Epochs 186-200 (15 epochs) took 47 mins. (7 processes)
+Epochs 201-250 (50 epochs) took 154 mins. (7 processes)
+Epochs 251-300 (50 epochs) took 155 mins. (7 processes)
+Epochs 301-330 (30 epochs) took 93 mins. (7 processes)
