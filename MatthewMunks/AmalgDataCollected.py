@@ -29,7 +29,7 @@ for entity in files_folders:
                     files_rejected += 1;
             print("files_accepted=", files_accepted, "files_rejected=", files_rejected);
 
-# print(output);
+print(output);
 
 with open(ROOT_DIR + "data_tuple_list.txt", "w") as output_file:
     output_file.write(output);
